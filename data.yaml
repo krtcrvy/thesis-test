@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['stop-sign']
+
+roboflow:
+  workspace: kurt-carvey-cadenas-azq98
+  project: stop-sign-m8any
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kurt-carvey-cadenas-azq98/stop-sign-m8any/dataset/1
